@@ -4,3 +4,14 @@
     padding: 0;
 
 }
+
+.navbar {
+    position: fixed;
+    background-color: darkgoldenrod;
+    color: white;
+    height: 100px;
+}
+.navbar li {
+    display:inline-block;
+    
+}
