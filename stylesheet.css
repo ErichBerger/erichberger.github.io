@@ -2,16 +2,19 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 .navbar {
     position: fixed;
-    background-color: darkgoldenrod;
+    background-color: darkorange;
     color: white;
     height: 100px;
+    width: 100%;
+
 }
 .navbar li {
     display:inline-block;
+    width: 33%;
     
 }
