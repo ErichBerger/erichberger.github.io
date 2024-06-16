@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progress Note 2/7</title>
+    <link  href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav>
+        <ul>
+            <a href="./providernotes.html"><li>Notes</li></a>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./adminnotes.html"><li>Account</li></a>
+        </ul> 
+        </nav>
+      <a class="addnote" href="./progressnote-1">+ Note</a>
+
+    </header>
+    <main>
+        <label for="summary"><h3>Summary of Treatment</h3></label>
+        <form class="progressnote" id="progressnote" action="./progressnote-3.html" method="post">
+                <textarea id="summary" name="summary" cols="55" rows="4"></textarea>
+                <div class="bnbuttons">
+                    <button form="progressnote" type="submit" formaction="./progressnote-1.html" class="backbutton">Back</button>
+                    <button form="progressnote" type="submit">Next</button>
+                </div>
+        </form>
+    </main>
+</html>
