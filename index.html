@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link  href="https://github.com/ErichBerger/erichberger.github.io/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav>
+        <ul>
+            <a href="providerdashboard"><li>Notes</li></a>
+            <a class='highlighted' href="home"><li>Home</li></a>
+            <a href="providerdashboard"><li>Account</li></a>
+        </ul> 
+        </nav>
+      <a class="addnote" href="progressnote-1">+ Note</a>
+    </header>
+    <main>
+        <form class="login" action="/providerdashboard" method="get">
+            <h3>Provider</h3>
+            <div class="username">
+                <label for="user">Username: </label>
+                <input type="text" id="user">
+            </div>
+            <div class="password">
+                <label for="pass">Password: </label>
+                <input type="text" id="pass">
+            </div>
+            <input type="submit" value="Login" class="submit">
+        </form>
+        <form class="login" action="/admindashboard" method="get">
+            <h3>Admin</h3>
+            <div class="username">
+                <label for="auser">Username: </label>
+                <input type="text" id="auser" >
+            </div>
+            <div class="password">
+                <label for="apass">Password: </label>
+                <input type="text" id="apass" >
+            </div>
+            <input type="submit" value="Login">
+        </form>
+        </main>
+</html>
